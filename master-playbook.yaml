@@ -211,5 +211,5 @@
       remote_src: yes
 
   - name: Installing Flannel network-plug-in for cluster network
-    command: kubectl apply -f https://raw.githubusercontent.com/melvinrmc/k8s/master/kube-flannel.yml
+    command: kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
     become: false
